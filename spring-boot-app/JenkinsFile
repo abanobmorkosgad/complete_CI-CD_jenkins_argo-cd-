@@ -44,7 +44,7 @@ pipeline {
                         git config user.name "abanobmorkosgad"
                         sed -i "s/replaceImageTag/${BUILD_NUMBER}/g" spring-boot-app-manifests/deployment.yml
                         git remote set-url origin https://${USER}:${PASS}@github.com/abanobmorkosgad/complete_CI-CD_jenkins_argo-cd-.git
-                        git add spring-boot-app-manifests/deployment.yml
+                        git add .
                         git commit -m "Update deployment image to version ${BUILD_NUMBER}"
                         git push origin HEAD:main
                     '''
