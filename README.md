@@ -30,10 +30,6 @@ This project involves setting up a CI/CD pipeline to automate the process of bui
 - EKS (Elastic Kubernetes Service) for container orchestration
 - Argo CD for continuous deployment
 
-## Architecture
-
-![Architecture Diagram](./project_map.png)
-
 ## Prerequisites
 
 Before you begin, ensure you have the following:
