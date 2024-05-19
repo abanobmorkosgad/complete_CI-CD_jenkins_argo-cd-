@@ -32,7 +32,7 @@ This project involves setting up a CI/CD pipeline to automate the process of bui
 
 ## Architecture
 
-![Architecture Diagram](path/to/architecture-diagram.png)
+![Architecture Diagram](./project_map.png)
 
 ## Prerequisites
 
